@@ -15,6 +15,7 @@
 
 .product-row{
     width: 100%;
+    margin-bottom: 2.5em;
 }
 
 .heart{
@@ -28,14 +29,14 @@
 }
 
 /* PRODUCTS */
-.product{
+.product-card{
     position:relative;
     display: inline-block;
     vertical-align: top;
     width: calc((100%/3) - 4px );
 }
 
-.product-img-A{
+.product-img-a{
     width: 100%;
 }
 
@@ -55,5 +56,23 @@
     position: absolute;
     bottom: 15%;
     left: 15%;
+    font-weight: bolder;
 }
 
+.product-description{
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+.price{
+    font-size: .8em;
+}
+
+.discounted-price{
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.original-price{
+    text-decoration: line-through;
+}
