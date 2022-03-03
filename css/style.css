@@ -40,6 +40,18 @@
     width: 100%;
 }
 
+.product-img-b{
+    width: 100%;
+    display: none;
+}
+
+/*.banner{
+    display: inline-block;
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+}*/
+
 .product-discount{
     background-color: #ff0000;
     color: #ffffff;
@@ -75,4 +87,11 @@
 
 .original-price{
     text-decoration: line-through;
+}
+
+.product-card:hover .product-img-b{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left:0;
 }
