@@ -56,9 +56,6 @@
     background-color: #ff0000;
     color: #ffffff;
     padding: .2em .5em;
-    /* position: absolute;
-    left: 0;
-    bottom: 15%; */
 }
 
 .sustainability{
@@ -66,10 +63,6 @@
     color: #ffffff;
     font-weight: bolder;
     padding: .2em .5em;
-    /* position: absolute;
-    bottom: 15%;
-    left: 15%; */
-    
 }
 
 .product-description{
