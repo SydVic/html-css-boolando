@@ -15,28 +15,64 @@ html{
     margin: 0 auto;
     width: 70%;
     max-width: 1200px;
-    border: 1px solid #000000;
 }
 
+.heart{
+    position: absolute;
+    background-color: #ffffff;
+    font-size: 1.2em;
+    top: 5%;
+    right: 0;
+    padding: 5px 8px;
+}
+
+.heart:hover{
+    color:red;
+}
+
+.labels-wrapper{
+    color: #ffffff;
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+}
+
+.label{
+    padding: 3px;
+}
+
+.discount{
+    background-color: #ff0000;
+}
+
+.promo{
+    background-color: #008000;
+}
 /* CARD DEL PRODOTTO */
 .product-card{
-    /*position:relative;*/
     display: inline-block;
-    width: calc((100%/3) - 4px);
+    width: calc((100%/3) - 15px);
     vertical-align: top;
+    margin: 5px;
 }
 
+/* IMMAGINE E HOVER */
 .product-image{
     position:relative;
 }
 
 .product-image img{
     width: 100%;
-    border: 1px solid #ff0000;
 }
 
-.product-description{
-    border: 1px solid #00ff22;
+.brand,
+.discount-price,
+.original-price {
+    font-size: .8em;
+}
+
+.discount-price{
+    color: #ff0000;
 }
 
 .image-hover{
